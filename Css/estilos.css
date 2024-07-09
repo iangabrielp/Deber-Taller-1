@@ -1,0 +1,16 @@
+
+.mi-nav{
+    background-color:rgba(0, 2, 7, 0.973);
+    height: 70px;
+}
+.mi-icono{
+    color: mediumorchid;
+    font-size: 50px;
+}
+
+.card-body{
+    grid-area: 1/1/4/2;
+    background-color:rgb(231, 243, 253);
+}
+
+

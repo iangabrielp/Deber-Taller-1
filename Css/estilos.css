@@ -28,3 +28,27 @@
 .carousele img:last-child {
     margin-right: 0;
 }
+
+.whatsapp-icon {
+    font-size: 45px;
+    color: #25D366; /* Color oficial de WhatsApp */
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+  }
+
+  .bg-custom-blue {
+    background-color: #00d4ff; /* Celeste brillante personalizado */
+  }
+  .text-custom-blue {
+    color: #00d4ff; /* Celeste brillante personalizado */
+  }
+  .border-custom-blue {
+    border-color: #00d4ff; /* Celeste brillante personalizado */
+  }
+  .focus\:ring-custom-blue:focus {
+    --tw-ring-color: #00d4ff; /* Celeste brillante personalizado */
+  }
+  .hover\:bg-custom-blue:hover {
+    background-color: #00d4ff; /* Celeste brillante personalizado */
+  }

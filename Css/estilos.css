@@ -38,17 +38,17 @@
   }
 
   .bg-custom-blue {
-    background-color: #00d4ff; /* Celeste brillante personalizado */
+    background-color: #00d4ff; 
   }
   .text-custom-blue {
-    color: #00d4ff; /* Celeste brillante personalizado */
+    color: #00d4ff; 
   }
   .border-custom-blue {
-    border-color: #00d4ff; /* Celeste brillante personalizado */
+    border-color: #00d4ff; 
   }
   .focus\:ring-custom-blue:focus {
-    --tw-ring-color: #00d4ff; /* Celeste brillante personalizado */
+    --tw-ring-color: #00d4ff; 
   }
   .hover\:bg-custom-blue:hover {
-    background-color: #00d4ff; /* Celeste brillante personalizado */
+    background-color: #00d4ff; 
   }

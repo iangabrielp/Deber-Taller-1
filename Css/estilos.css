@@ -13,4 +13,18 @@
     background-color:rgb(231, 243, 253);
 }
 
-
+.carousele {
+    display: flex;
+    overflow-x: auto;
+    white-space: nowrap;
+    -webkit-overflow-scrolling: touch;
+    scroll-snap-type: x mandatory;
+}
+.carousele img {
+    height: 100px;
+    margin-right: 10px;
+    scroll-snap-align: start;
+}
+.carousele img:last-child {
+    margin-right: 0;
+}

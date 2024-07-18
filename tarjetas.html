@@ -86,65 +86,31 @@
             <center><h2 class="text-2xl font-bold tracking-tight text-gray-900">Los cientes también compraron</h2></center>
         
             <div class="mt-6 grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-4 xl:gap-x-8">
-              <button class="group relative" id="brilloUv" onclick="agregarProducto('1','brilloUv', 15)">
-                <div class="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-md bg-gray-200 lg:aspect-none group-hover:opacity-75 lg:h-80" >
-                  <img src="Imagenes/tarjetas b1.png" alt="Front of men&#039;s Basic Tee in black." class="h-full w-full object-cover object-center 
-                  lg:h-full lg:w-full">
-                </div>
-                <div class="mt-4 flex justify-between">
-                  <div>
-                    <h3 class="text-sm text-gray-700">
-                      <a href="#" id="product-link">
-                        <span aria-hidden="true" class="absolute inset-0"></span>
-                        Tarjetas
-                      </a>
-                    </h3>
-                    <p class="mt-1 text-sm text-gray-500">Brillo Uv</p>
+              <div class="group relative">
+                <button id="brilloUv" onclick="agregarProducto('1','brilloUv', 15)">
+                  <div class="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-md bg-gray-200 lg:aspect-none group-hover:opacity-75 lg:h-80" >
+                    <img src="Imagenes/tarjetas b1.png" alt="Front of men&#039;s Basic Tee in black." class="h-full w-full object-cover object-center 
+                    lg:h-full lg:w-full">
                   </div>
-                  <p class="text-sm font-medium text-gray-900">$15</p>
-                </div>
-              </button>
-              
-              <!-- More products... -->
-              <button class="group relative" id="mate" onclick="agregarProducto('1','mate', 30)">
-                <div class="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-md bg-gray-200 lg:aspect-none group-hover:opacity-75 lg:h-80">
-                  <img src="Imagenes/Tarjetas20.png" alt="Front of men&#039;s Basic Tee in black." class="h-full w-full object-cover object-center lg:h-full lg:w-full">
-                </div>
-                <div class="mt-4 flex justify-between">
-                  <div>
-                    <h3 class="text-sm text-gray-700">
-                      <a href="#" id="product-link1">
-                        <span aria-hidden="true" class="absolute inset-0"></span>
-                        Tarjetas
-                      </a>
-                    </h3>
-                    <p class="mt-1 text-sm text-gray-500">Mate</p>
+                  <div class="mt-4 flex justify-between">
+                    <div>
+                      <h3 class="text-sm text-gray-700">
+                        <a href="#" id="product-link">
+                          <span aria-hidden="true" class="absolute inset-0"></span>
+                          Tarjetas
+                        </a>
+                      </h3>
+                      <p class="mt-1 text-sm text-gray-500">Brillo Uv</p>
+                    </div>
+                    <p class="text-sm font-medium text-gray-900">$15</p>
                   </div>
-                  <p class="text-sm font-medium text-gray-900">$30</p>
-                </div>
-              </button>
-               <!-- More products... -->
-               <div class="group relative">
-                <div class="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-md bg-gray-200 lg:aspect-none group-hover:opacity-75 lg:h-80">
-                  <img src="Imagenes/TarjetaS21.png" alt="Front of men&#039;s Basic Tee in black." class="h-full w-full object-cover object-center lg:h-full lg:w-full">
-                </div>
-                <div class="mt-4 flex justify-between">
-                  <div>
-                    <h3 class="text-sm text-gray-700">
-                      <a href="#">
-                        <span aria-hidden="true" class="absolute inset-0"></span>
-                        Tarjetas
-                      </a>
-                    </h3>
-                    <p class="mt-1 text-sm text-gray-500">Serigrafia</p>
-                  </div>
-                  <p class="text-sm font-medium text-gray-900">$35</p>
-                </div>
+                </button>
               </div>
-                 <!-- More products... -->
-                 <div class="group relative">
+              <!-- More products... -->
+               <div class="group relative">
+                <button id="mate" onclick="agregarProducto('1','mate', 30)">
                   <div class="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-md bg-gray-200 lg:aspect-none group-hover:opacity-75 lg:h-80">
-                    <img src="Imagenes/TarjetaS22.png" alt="Front of men&#039;s Basic Tee in black." class="h-full w-full object-cover object-center lg:h-full lg:w-full">
+                    <img src="Imagenes/Tarjetas20.png" alt="Front of men&#039;s Basic Tee in black." class="h-full w-full object-cover object-center lg:h-full lg:w-full">
                   </div>
                   <div class="mt-4 flex justify-between">
                     <div>
@@ -154,82 +120,136 @@
                           Tarjetas
                         </a>
                       </h3>
-                      <p class="mt-1 text-sm text-gray-500">Selectivas</p>
+                      <p class="mt-1 text-sm text-gray-500">Mate</p>
+                    </div>
+                    <p class="text-sm font-medium text-gray-900">$30</p>
+                  </div>
+                </button>
+               </div>
+              
+               <!-- More products... -->
+               <div class="group relative">
+                <button id="serigrafia" onclick="agregarProducto('1','serigrafia', 35)">
+                  <div class="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-md bg-gray-200 lg:aspect-none group-hover:opacity-75 lg:h-80">
+                    <img src="Imagenes/TarjetaS21.png" alt="Front of men&#039;s Basic Tee in black." class="h-full w-full object-cover object-center lg:h-full lg:w-full">
+                  </div>
+                  <div class="mt-4 flex justify-between">
+                    <div>
+                      <h3 class="text-sm text-gray-700">
+                        <a href="#">
+                          <span aria-hidden="true" class="absolute inset-0"></span>
+                          Tarjetas
+                        </a>
+                      </h3>
+                      <p class="mt-1 text-sm text-gray-500">Serigrafia</p>
                     </div>
                     <p class="text-sm font-medium text-gray-900">$35</p>
                   </div>
+                </button>
+              </div>
+                 <!-- More products... -->
+                 <div class="group relative">
+                  <button id="selectivas" onclick="agregarProducto('1','selectivas', 35)">
+                    <div class="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-md bg-gray-200 lg:aspect-none group-hover:opacity-75 lg:h-80">
+                      <img src="Imagenes/TarjetaS22.png" alt="Front of men&#039;s Basic Tee in black." class="h-full w-full object-cover object-center lg:h-full lg:w-full">
+                    </div>
+                    <div class="mt-4 flex justify-between">
+                      <div>
+                        <h3 class="text-sm text-gray-700">
+                          <a href="#">
+                            <span aria-hidden="true" class="absolute inset-0"></span>
+                            Tarjetas
+                          </a>
+                        </h3>
+                        <p class="mt-1 text-sm text-gray-500">Selectivas</p>
+                      </div>
+                      <p class="text-sm font-medium text-gray-900">$35</p>
+                    </div>
+                  </button>
+                  
                 </div>
                   <!-- More products... -->
                   <div class="group relative">
-                    <div class="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-md bg-gray-200 lg:aspect-none group-hover:opacity-75 lg:h-80">
-                      <img src="Imagenes/Tarjetas23.png" alt="Front of men&#039;s Basic Tee in black." class="h-full w-full object-cover object-center lg:h-full lg:w-full">
-                    </div>
-                    <div class="mt-4 flex justify-between">
-                      <div>
-                        <h3 class="text-sm text-gray-700">
-                          <a href="#">
-                            <span aria-hidden="true" class="absolute inset-0"></span>
-                            Tarjetas 
-                          </a>
-                        </h3>
-                        <p class="mt-1 text-sm text-gray-500">Postales</p>
-                      </div>
-                      <p class="text-sm font-medium text-gray-900">$50</p>
-                    </div>
-                  </div>
-                   <!-- More products... -->
-                   <div class="group relative">
-                    <div class="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-md bg-gray-200 lg:aspect-none group-hover:opacity-75 lg:h-80">
-                      <img src="Imagenes/tarejeats24.png" alt="Front of men&#039;s Basic Tee in black." class="h-full w-full object-cover object-center lg:h-full lg:w-full">
-                    </div>
-                    <div class="mt-4 flex justify-between">
-                      <div>
-                        <h3 class="text-sm text-gray-700">
-                          <a href="#">
-                            <span aria-hidden="true" class="absolute inset-0"></span>
-                            Etiquetas
-                          </a>
-                        </h3>
-                        <p class="mt-1 text-sm text-gray-500">Adhesivas</p>
-                      </div>
-                      <p class="text-sm font-medium text-gray-900">$80</p>
-                    </div>
-                  </div>
-                    <!-- More products... -->
-                    <div class="group relative">
+                    <button id="postales" onclick="agregarProducto('1','postales', 50)">
                       <div class="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-md bg-gray-200 lg:aspect-none group-hover:opacity-75 lg:h-80">
-                        <img src="Imagenes/tarjetas25.png" alt="Front of men&#039;s Basic Tee in black." class="h-full w-full object-cover object-center lg:h-full lg:w-full">
+                        <img src="Imagenes/Tarjetas23.png" alt="Front of men&#039;s Basic Tee in black." class="h-full w-full object-cover object-center lg:h-full lg:w-full">
                       </div>
                       <div class="mt-4 flex justify-between">
                         <div>
                           <h3 class="text-sm text-gray-700">
                             <a href="#">
                               <span aria-hidden="true" class="absolute inset-0"></span>
-                              tarjetas
+                              Tarjetas 
                             </a>
                           </h3>
-                          <p class="mt-1 text-sm text-gray-500">Calendario</p>
+                          <p class="mt-1 text-sm text-gray-500">Postales</p>
                         </div>
-                        <p class="text-sm font-medium text-gray-900">$70</p>
+                        <p class="text-sm font-medium text-gray-900">$50</p>
                       </div>
-                    </div>
-                      <!-- More products... -->
-                      <div class="group relative">
+                    </button>
+                    
+                  </div>
+                   <!-- More products... -->
+                   <div class="group relative">
+                    <button id="adhesivas" onclick="agregarProducto('1','adhesivas', 80)">
+                      <div class="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-md bg-gray-200 lg:aspect-none group-hover:opacity-75 lg:h-80">
+                        <img src="Imagenes/tarejeats24.png" alt="Front of men&#039;s Basic Tee in black." class="h-full w-full object-cover object-center lg:h-full lg:w-full">
+                      </div>
+                      <div class="mt-4 flex justify-between">
+                        <div>
+                          <h3 class="text-sm text-gray-700">
+                            <a href="#">
+                              <span aria-hidden="true" class="absolute inset-0"></span>
+                              Etiquetas
+                            </a>
+                          </h3>
+                          <p class="mt-1 text-sm text-gray-500">Adhesivas</p>
+                        </div>
+                        <p class="text-sm font-medium text-gray-900">$80</p>
+                      </div>
+                    </button>
+                    
+                  </div>
+                    <!-- More products... -->
+                    <div class="group relative">
+                      <button id="calendario" onclick="agregarProducto('1','calendario', 70)">
                         <div class="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-md bg-gray-200 lg:aspect-none group-hover:opacity-75 lg:h-80">
-                          <img src="Imagenes/tarjetas26.png" alt="Front of men&#039;s Basic Tee in black." class="h-full w-full object-cover object-center lg:h-full lg:w-full">
+                          <img src="Imagenes/tarjetas25.png" alt="Front of men&#039;s Basic Tee in black." class="h-full w-full object-cover object-center lg:h-full lg:w-full">
                         </div>
                         <div class="mt-4 flex justify-between">
                           <div>
                             <h3 class="text-sm text-gray-700">
                               <a href="#">
                                 <span aria-hidden="true" class="absolute inset-0"></span>
-                                Tarjetas
+                                tarjetas
                               </a>
                             </h3>
-                            <p class="mt-1 text-sm text-gray-500">caja</p>
+                            <p class="mt-1 text-sm text-gray-500">Calendario</p>
                           </div>
-                          <p class="text-sm font-medium text-gray-900">$100</p>
+                          <p class="text-sm font-medium text-gray-900">$70</p>
                         </div>
+                      </button>
+                      
+                    </div>
+                      <!-- More products... -->
+                      <div class="group relative">
+                        <button id="caja" onclick="agregarProducto('1','caja', 100)">
+                          <div class="aspect-h-1 aspect-w-1 w-full overflow-hidden rounded-md bg-gray-200 lg:aspect-none group-hover:opacity-75 lg:h-80">
+                            <img src="Imagenes/tarjetas26.png" alt="Front of men&#039;s Basic Tee in black." class="h-full w-full object-cover object-center lg:h-full lg:w-full">
+                          </div>
+                          <div class="mt-4 flex justify-between">
+                            <div>
+                              <h3 class="text-sm text-gray-700">
+                                <a href="#">
+                                  <span aria-hidden="true" class="absolute inset-0"></span>
+                                  Tarjetas
+                                </a>
+                              </h3>
+                              <p class="mt-1 text-sm text-gray-500">caja</p>
+                            </div>
+                            <p class="text-sm font-medium text-gray-900">$100</p>
+                          </div>
+                        </button>
                       </div>
             </div>
           </div>

@@ -1,5 +1,11 @@
 {
-    "productos":[ 
-        
-    ]
+  "productos": [
+    {
+      "id": "1",
+      "producto": "brilloUv",
+      "precio": 15,
+      "cantidad": 1
+    }
+    
+  ]
 }

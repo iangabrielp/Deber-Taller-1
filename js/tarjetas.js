@@ -1,3 +1,5 @@
+let productos= [ ];
+
 const agregarProducto = (id,producto,precio) => {
     let indice = productos.findIndex(p => p.id == id);
 
@@ -37,7 +39,7 @@ for(let item of productos){
     celdaProducto.textContent=item.producto;
     celdaTotal.textContent=item.precio * item.cantidad;
 
-    let boton = document.createElement('img');
+    let boton = document.createElement('button');
     boton.textContent = 'Borrar';
     celdaBoton.append (boton);
 
@@ -62,7 +64,7 @@ const eliminar =(id)=>{
 
 async function putJson(data){
     try{
-        const response = await fetch(`http://localhost:3000/produtos/ ${data.id}`,{
+        const response = await fetch(`http://localhost:3000/productos ${data.id}`,{
             method:"PUT",
             Headers:{
                 "Content-Type":"application/json",
@@ -78,7 +80,7 @@ async function putJson(data){
 
 async function postJson (data){
     try{
-        const response = await fetch("http://localhost:3000/produtos/",{
+        const response = await fetch("http://localhost:3000/productos/",{
             method:"POST",
             Headers:{
                 "Content-Type":"application/json",
@@ -94,7 +96,7 @@ async function postJson (data){
 
 async function deleteJson (data){
     try{
-        const response = await fetch(`http://localhost:3000/produtos/ ${data}`,{
+        const response = await fetch(`http://localhost:3000/productos/ ${data}`,{
             method:"DELETE",
             
         });
@@ -107,7 +109,7 @@ async function deleteJson (data){
 
 async function getJson (data){
     try{
-        const response = await fetch("http://localhost:3000/produtos/",{
+        const response = await fetch("http://localhost:3000/productos/",{
             method:"GET",
             Headers:{
                 "Content-Type":"application/json",
@@ -128,3 +130,14 @@ async function getJson (data){
 window.onload= function(){
     getJson();
 }
+
+document.addEventListener('DOMContentLoaded', (event) => {
+    let productLink = document.getElementById('product-link');
+
+    productLink.addEventListener('click', function(event) {
+        event.preventDefault();
+        // Aquí puedes añadir cualquier otra lógica que desees que ocurra cuando se haga clic en el enlace
+        console.log('Enlace clicado, pero la pantalla no se mueve hacia arriba');
+    });
+});
+

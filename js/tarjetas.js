@@ -54,9 +54,9 @@ const actualizarTabla = () =>{
 const rows = tbody.querySelectorAll('tr');
 rows.forEach((row, index) => {
     if (index % 2 === 1) {
-        row.style.backgroundColor = '#f2f2f2'; // gris claro para filas impares
+        row.style.backgroundColor = '#f2f2f2'; 
     } else {
-        row.style.backgroundColor = '#ffffff'; // blanco para filas pares
+        row.style.backgroundColor = '#ffffff'; 
     }
 });
 
@@ -141,8 +141,9 @@ window.onload = function(){
     getJson();
 };
 
+// Amagenes estaticas
 document.addEventListener('DOMContentLoaded', (event) => {
-    var productLink = document.getElementById('product-link');
+    let productLink = document.getElementById('product-link');
 
     productLink.addEventListener('click', function(event) {
         event.preventDefault();
@@ -150,3 +151,74 @@ document.addEventListener('DOMContentLoaded', (event) => {
         console.log('Enlace clicado, pero la pantalla no se mueve hacia arriba');
     });
 });
+
+document.addEventListener('DOMContentLoaded', (event) => {
+    let tarjetasMate = document.getElementById('tarjetas-mate');
+
+    tarjetasMate.addEventListener('click', function(event) {
+        event.preventDefault();
+        // Aquí puedes añadir cualquier otra lógica que desees que ocurra cuando se haga clic en el enlace
+        console.log('Enlace clicado, pero la pantalla no se mueve hacia arriba');
+    });
+});
+
+document.addEventListener('DOMContentLoaded', (event) => {
+    let tarjetasSerigrafia = document.getElementById('tarjetas-serigrafia');
+
+    tarjetasSerigrafia.addEventListener('click', function(event) {
+        event.preventDefault();
+        // Aquí puedes añadir cualquier otra lógica que desees que ocurra cuando se haga clic en el enlace
+        console.log('Enlace clicado, pero la pantalla no se mueve hacia arriba');
+    });
+});
+
+document.addEventListener('DOMContentLoaded', (event) => {
+    let tarjetasSelectivas = document.getElementById('tarjetas-selectivas');
+
+    tarjetasSelectivas.addEventListener('click', function(event) {
+        event.preventDefault();
+        // Aquí puedes añadir cualquier otra lógica que desees que ocurra cuando se haga clic en el enlace
+        console.log('Enlace clicado, pero la pantalla no se mueve hacia arriba');
+    });
+});
+
+document.addEventListener('DOMContentLoaded', (event) => {
+    let lonasBanners = document.getElementById('lonas-banners');
+
+    lonasBanners.addEventListener('click', function(event) {
+        event.preventDefault();
+        // Aquí puedes añadir cualquier otra lógica que desees que ocurra cuando se haga clic en el enlace
+        console.log('Enlace clicado, pero la pantalla no se mueve hacia arriba');
+    });
+});
+
+document.addEventListener('DOMContentLoaded', (event) => {
+    let menusDesechables = document.getElementById('menus-desechables');
+
+    menusDesechables.addEventListener('click', function(event) {
+        event.preventDefault();
+        // Aquí puedes añadir cualquier otra lógica que desees que ocurra cuando se haga clic en el enlace
+        console.log('Enlace clicado, pero la pantalla no se mueve hacia arriba');
+    });
+});
+
+document.addEventListener('DOMContentLoaded', (event) => {
+    let foldersFlyers = document.getElementById('folders-flyers');
+
+    foldersFlyers.addEventListener('click', function(event) {
+        event.preventDefault();
+        // Aquí puedes añadir cualquier otra lógica que desees que ocurra cuando se haga clic en el enlace
+        console.log('Enlace clicado, pero la pantalla no se mueve hacia arriba');
+    });
+});
+
+document.addEventListener('DOMContentLoaded', (event) => {
+    let hojasMembretadas = document.getElementById('hojas-membretadas');
+
+    hojasMembretadas.addEventListener('click', function(event) {
+        event.preventDefault();
+        // Aquí puedes añadir cualquier otra lógica que desees que ocurra cuando se haga clic en el enlace
+        console.log('Enlace clicado, pero la pantalla no se mueve hacia arriba');
+    });
+});
+

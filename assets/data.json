@@ -2,9 +2,9 @@
   "productos": [
     {
       "id": "1",
-      "producto": "banners",
-      "precio": 90,
-      "cantidad": 1
+      "producto": "selectivas",
+      "precio": 35,
+      "cantidad": 3
     },
     {
       "id": "1",

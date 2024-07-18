@@ -18,8 +18,6 @@ const agregarProducto = (id, producto, precio) => {
     actualizarTabla();
 }
  
-
- 
 const actualizarTabla = () =>{
     let tbody = document.getElementById('tbody');
     let total= 0;
@@ -51,6 +49,17 @@ const actualizarTabla = () =>{
  
     document.getElementById('total').textContent=total;
 }
+
+// Aplicar estilos a las filas impares
+const rows = tbody.querySelectorAll('tr');
+rows.forEach((row, index) => {
+    if (index % 2 === 1) {
+        row.style.backgroundColor = '#f2f2f2'; // gris claro para filas impares
+    } else {
+        row.style.backgroundColor = '#ffffff'; // blanco para filas pares
+    }
+});
+
  
 const eliminar = (id) =>{
     let indice = productos.findIndex(p => p.id == id);

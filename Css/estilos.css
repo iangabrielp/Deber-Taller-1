@@ -92,7 +92,7 @@ body {
 }
 
 .table td {
-  background-color: #ffffff; 
+  background-color: rgb(6, 131, 241); 
 }
 
 .table tfoot td {
@@ -103,5 +103,10 @@ body {
 
 /* Estilo para filas impares */
 .table tbody tr:nth-child(odd) {
-  background-color: #f2f2f2; 
+  background-color: #d83434; /* gris claro */
+}
+
+/* Estilo para las celdas de datos */
+.table tbody td {
+  color: #000000; /* negro */
 }

@@ -1,5 +1,52 @@
 {
   "productos": [
-    
+    {
+      "id": "1",
+      "producto": "banners",
+      "precio": 90,
+      "cantidad": 1
+    },
+    {
+      "id": "1",
+      "producto": "desechables",
+      "precio": 100,
+      "cantidad": 1
+    },
+    {
+      "id": "1",
+      "producto": "flyers",
+      "precio": 40,
+      "cantidad": 1
+    },
+    {
+      "id": "1",
+      "producto": "membretadas",
+      "precio": 45,
+      "cantidad": 1
+    },
+    {
+      "id": "1",
+      "producto": "brilloUv",
+      "precio": 15,
+      "cantidad": 1
+    },
+    {
+      "id": "1",
+      "producto": "mate",
+      "precio": 30,
+      "cantidad": 1
+    },
+    {
+      "id": "1",
+      "producto": "serigrafia",
+      "precio": 35,
+      "cantidad": 1
+    },
+    {
+      "id": "1",
+      "producto": "selectivas",
+      "precio": 35,
+      "cantidad": 1
+    }
   ]
 }

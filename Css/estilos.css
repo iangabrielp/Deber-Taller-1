@@ -52,8 +52,8 @@
   .hover\:bg-custom-blue:hover {
     background-color: #00d4ff; 
   }
+  
   /* TABLA DE VENTAS */
-  /* Resetear márgenes y rellenos para todos los elementos */
 * {
   margin: 0;
   padding: 0;

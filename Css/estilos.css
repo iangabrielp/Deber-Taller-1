@@ -52,5 +52,56 @@
   .hover\:bg-custom-blue:hover {
     background-color: #00d4ff; 
   }
+  /* TABLA DE VENTAS */
+  /* Resetear márgenes y rellenos para todos los elementos */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* Aplicar estilos al body */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #ffffff; 
+  color: #000000; 
+}
 
-  
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.table th, .table td {
+  border: 1px solid #000000; 
+  padding: 12px;
+  text-align: center;
+}
+
+.table th {
+  background-color: rgb(6, 131, 241); 
+  color: #ffffff; 
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.table td {
+  background-color: #ffffff; 
+}
+
+.table tfoot td {
+  background-color: rgb(6, 131, 241); 
+  color: #ffffff; 
+  font-weight: bold;
+}
+
+/* Estilo para filas impares */
+.table tbody tr:nth-child(odd) {
+  background-color: #f2f2f2; 
+}

@@ -132,4 +132,12 @@ window.onload = function(){
     getJson();
 };
 
+document.addEventListener('DOMContentLoaded', (event) => {
+    var productLink = document.getElementById('product-link');
 
+    productLink.addEventListener('click', function(event) {
+        event.preventDefault();
+        // Aquí puedes añadir cualquier otra lógica que desees que ocurra cuando se haga clic en el enlace
+        console.log('Enlace clicado, pero la pantalla no se mueve hacia arriba');
+    });
+});
